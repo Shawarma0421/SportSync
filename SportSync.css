@@ -507,6 +507,17 @@ donwload-links img:hover{
     line-height: 1.5;
 }
 
+    .dark-text {
+    color: #111111 !important; /* This forces black text */
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.team-card h3, .team-card p {
+    color: #111111 !important;
+}
+
 
 
 

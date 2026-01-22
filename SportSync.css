@@ -473,5 +473,23 @@ donwload-links img:hover{
     box-shadow: 0 15px 40px rgba(0,0,0,0.15) !important;
 }
 
+/* --- MOBILE NAVIGATION FIX --- */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column !important; /* Stack logo and links vertically */
+        align-items: center !important;
+        padding: 10px !important;
+    }
+
+    .nav-links {
+        gap: 20px !important; /* Space out Home and About Us */
+        margin-top: 10px !important;
+    }
+
+    .nav-links a {
+        font-size: 1rem !important; /* Slightly smaller text for mobile */
+    }
+}
+
 
 

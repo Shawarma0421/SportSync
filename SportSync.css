@@ -76,8 +76,9 @@ body {
     padding: 80px 20px;
     text-align: center;
     font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
-    color: #000;
+    /* CHANGE THIS LINE: Remove the linear-gradient */
+    background: #161618 !important; 
+    color: #ffffff !important; /* Make text white so it's readable on dark */
 }
 
 .intro h1{
@@ -476,20 +477,23 @@ donwload-links img:hover{
 /* --- MOBILE NAVIGATION FIX --- */
 @media (max-width: 600px) {
     nav {
-        flex-direction: column !important; /* Stack logo and links vertically */
+        height: auto !important; /* Allow the nav to grow with content */
+        flex-direction: column !important;
         align-items: center !important;
-        padding: 10px !important;
+        padding: 15px !important;
     }
 
     .nav-links {
-        gap: 20px !important; /* Space out Home and About Us */
-        margin-top: 10px !important;
+        display: flex !important;
+        flex-direction: row !important; /* Keep them side-by-side but spaced */
+        gap: 30px !important; /* More space between Home and About Us */
+        padding-right: 0 !important; /* Remove the desktop padding */
+        margin-top: 15px !important;
     }
 
     .nav-links a {
-        font-size: 1rem !important; /* Slightly smaller text for mobile */
+        font-size: 20px !important; /* Slightly smaller for mobile */
     }
 }
-
 
 

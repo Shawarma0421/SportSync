@@ -494,6 +494,18 @@ donwload-links img:hover{
     .nav-links a {
         font-size: 20px !important; /* Slightly smaller for mobile */
     }
+
+    .team-card h3 {
+    color: #161618 !important; /* Dark black/grey */
+    font-weight: bold;
+    margin-top: 15px;
 }
+
+.team-card p {
+    color: #444444 !important; /* Dark grey */
+    font-size: 16px;
+}
+}
+
 
 

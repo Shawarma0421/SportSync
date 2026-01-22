@@ -495,17 +495,18 @@ donwload-links img:hover{
         font-size: 20px !important; /* Slightly smaller for mobile */
     }
 
-    .team-card h3 {
-    color: #161618 !important; /* Dark black/grey */
-    font-weight: bold;
+  /* This forces the titles (H3) inside the team cards to be black */
+.team-card h3 {
+    color: #111111 !important; 
     margin-top: 15px;
 }
 
+/* This forces the descriptions (P) inside the team cards to be a dark grey */
 .team-card p {
-    color: #444444 !important; /* Dark grey */
-    font-size: 16px;
+    color: #333333 !important; 
+    line-height: 1.5;
 }
-}
+
 
 
 
